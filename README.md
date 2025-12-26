@@ -1,74 +1,127 @@
-**📋 Formulário de Cadastro com Laravel**
+# 📋 Formulário de Cadastro com Laravel
 
-Este projeto é uma implementação simples de um formulário de cadastro de usuário utilizando o Laravel, ideal para estudo e prática com o framework PHP.
+Este projeto é uma implementação simples de um **formulário de cadastro de usuários** utilizando o **Laravel**, ideal para **estudo e prática** dos principais conceitos do framework PHP.
 
-  
+---
 
-**🧪 Funcionalidade do Projeto**
+## 🧪 Funcionalidades do Projeto
 
-- Tela simples de cadastro de usuário
-- Validações básicas de formulário
-- Estrutura padrão do Laravel (MVC)
+* 📄 Tela simples de cadastro de usuário
+* ✅ Validações básicas de formulário
+* 🧱 Estrutura padrão do Laravel (**MVC**)
 
-  
+---
 
-**✅ Requisitos**
+## 🛠️ Tecnologias Utilizadas
 
-Certifique-se de ter as seguintes dependências instaladas em sua máquina:
+* PHP 8.2+
+* Laravel
+* Composer
+* Node.js
+* MySQL (ou outro banco suportado pelo Laravel)
 
-- PHP 8.2 ou superior
-- Composer (gerenciador de dependências do PHP)
-- Node.js 22 ou superior
-- MySQL (ou outro banco de dados suportado pelo Laravel)
+---
 
-  
+## ✅ Requisitos
 
-**⚙️ Como configurar e executar o projeto**
+Certifique-se de ter as seguintes dependências instaladas:
 
-1. **Clonar o repositório**
-   ```bash
-   git clone https://github.com/MaduSantoss/formulario_cadastro_laravel
-   ```
+* **PHP 8.2 ou superior**
+* **Composer** (gerenciador de dependências do PHP)
+* **Node.js 22 ou superior**
+* **MySQL** (ou outro banco compatível)
 
-2. **Copiar e configurar o arquivo .env**
-   ```bash
-   cp .env.example .env
-   ```
-   - Edite o arquivo `.env` com as configurações do seu banco de dados.
+---
 
-3. **Instalar as dependências do PHP**
-   ```bash
-   composer install
-   ```
+## ⚙️ Como Configurar e Executar o Projeto
 
-4. **Gerar a chave da aplicação**
-   ```bash
-   php artisan key:generate
-   ```
+### 1️⃣ Clonar o repositório
 
-5. **Rodar as migrações do banco de dados (se houver)**
-   ```bash
-   php artisan migrate
-   ```
+```bash
+git clone https://github.com/MaduSantoss/formulario-cadastro-laravel
+```
 
-6. **Instalar dependências do frontend**
-   ```bash
-   npm install
-   ```
+### 2️⃣ Acessar a pasta do projeto
 
-7. **Rodar o servidor local**
-   ```bash
-   php artisan serve
-   ```
+```bash
+cd formulario-cadastro-laravel
+```
+
+### 3️⃣ Copiar e configurar o arquivo `.env`
+
+```bash
+cp .env.example .env
+```
+
+Edite o arquivo `.env` e configure corretamente o acesso ao banco de dados.
+
+---
+
+### 4️⃣ Instalar as dependências do PHP
+
+```bash
+composer install
+```
+
+---
+
+### 5️⃣ Gerar a chave da aplicação
+
+```bash
+php artisan key:generate
+```
+
+---
+
+### 6️⃣ Rodar as migrações do banco de dados (se houver)
+
+```bash
+php artisan migrate
+```
+
+---
+
+### 7️⃣ Instalar dependências do front-end
+
+```bash
+npm install
+```
+
+---
+
+### 8️⃣ Rodar o servidor local
+
+```bash
+php artisan serve
+```
 
 Acesse o projeto no navegador:
-👉 [http://127.0.0.1:8000](http://127.0.0.1:8000)
+👉 **[http://127.0.0.1:8000](http://127.0.0.1:8000)**
 
-  
+---
 
-**🚀 Criando um projeto Laravel do zero (caso queira replicar)**
+## 🚀 Criando um Projeto Laravel do Zero (Opcional)
+
+Caso queira replicar o processo desde o início:
 
 ```bash
 composer create-project laravel/laravel .
 php artisan serve
 ```
+
+---
+
+## 🎯 Objetivo do Projeto
+
+* Praticar o uso do Laravel
+* Entender o fluxo MVC
+* Trabalhar com formulários e validações
+* Consolidar fundamentos do desenvolvimento web com PHP
+
+---
+
+## ⭐ Considerações Finais
+
+Este projeto é ideal para quem está começando com **Laravel** e deseja entender, na prática, como funciona a criação de formulários, validações e estruturação de um projeto real.
+
+---
